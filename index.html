@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>KIRAN</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <div class="box1">
+                <h2>Hello,<br>I Am <span>Kiran </span>Baria.<br><span id="element"></span></h2>
+                <div class="btn">
+                    <a href="./Resume.pdf" download>Resume</a>
+                    <a href="#skills">Skills</a>
+                </div>
+            </div>
+            <div class="box2">
+                <img src="images/image.jpg" alt="Image">
+            </div>
+        </div>
+    </section>
+<hr>
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Passionate MCA student deeply engaged in web development, constantly exploring new technologies.<br> Dedicated to creating innovative, user-centric web solutions to solve real-world challenges.</p>
+            <div class="edu">
+                <h3>Education</h3>
+                <ul>
+                    <li>
+                        MCA - Master of Computer Applications<br>
+                        University - GLS University<br>
+                        Year - 2023-2025 
+                    </li>
+                    <li>
+                        BCA - Bachelor of Computer Applications<br>
+                        University - MKBU University<br>
+                        Year - 2020-2023
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+<hr>
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="box">
+                <div class="programming"> 
+                    <h3>Programming Language</h3>
+                    <ul>
+                        <li>JAVA</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+                <div class="web">
+                    <h3>Web Thechnology</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                    </ul>
+                </div>
+                <div class="Tools">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Visual Studio</li>
+                        <li>git-hub</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="btn" >
+                <a href="./Resume.pdf" download  style="margin-top: 100px; margin-right: 60px;">Resume</a>
+            </div>
+            <!-- <button class="cv">Resume</button> -->
+        </div>
+    </section>
+
+<hr>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="box">    
+                <div class="project">
+                    <img src="images/weather_app.png" alt="Project_Image"/>
+                    <h3>Weather Webapp</h3>
+                    <p><a href="https://github.com/k-2002/Weather-app.git">Show Files</a></p>
+                </div>
+                <div class="project">
+                    <img src="images/image_searching.png" alt="Project_Image"/>
+                    <h3>Image Searching Webapp</h3>
+                    <p><a href="https://github.com/k-2002/Image_search_web_app.git">Show Files</a></p>
+                </div>
+                <div class="project">
+                    <img src="images/qr_generater.png" alt="Project_Image"/>
+                    <h3>QR-Generater</h3>
+                    <p><a href="https://github.com/k-2002/Image_search_web_app.git">Show Files</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<hr>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="https://api.web3forms.com/submit" method="post">
+                <input type="hidden" name="access_key" value="fae4375b-170b-445a-ba6c-50dbb3b90a7a">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+            <dic class="icons" style="margin-top: 20px;">
+                <a href="https://mail.google.com/mail"><i class="fa fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/kiran-baria-2729a7276/"><i class="fa fa-linkedin"></i></a>
+                <a href="https://github.com/k-2002"><i class="fa fa-github" ></i></a>
+            </dic>
+        </div>
+    </section>
+    
+
+    <footer>
+        <div class="container">
+            <p >&copy; 2024 Kiran Baria</p>
+        </div>
+    </footer>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
